@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义标题栏 TitleBar 的可配置属性 -->
+    <declare-styleable name="TitleBar">
+        <!-- 标题栏整体背景色（等价于 android:background，作为统一入口） -->
+        <attr name="tb_background" format="color" />
+        <!-- 标题栏「内容区」高度（不含状态栏）；组件会在此基础上自动叠加状态栏高度，
+             默认 48dp，调用方无需关心状态栏高度。 -->
+        <attr name="tb_height" format="dimension" />
+        <!-- 左侧返回图标资源：设置后自动可见，默认点击关闭页面 -->
+        <attr name="tb_backIcon" format="reference" />
+        <!-- 左侧返回图标尺寸（宽高一致，单位 dp/px 由框架换算） -->
+        <attr name="tb_backIconSize" format="dimension" />
+        <!-- 标题文案 -->
+        <attr name="tb_title" format="string" />
+        <!-- 标题字体大小 -->
+        <attr name="tb_titleTextSize" format="dimension" />
+        <!-- 标题字体颜色 -->
+        <attr name="tb_titleTextColor" format="color" />
+        <!-- 右侧图标资源（注入到右侧第一个图标位，设置后自动可见） -->
+        <attr name="tb_rightIcon" format="reference" />
+        <!-- 右侧图标尺寸（宽高一致，同时作用于右侧两个图标位） -->
+        <attr name="tb_rightIconSize" format="dimension" />
+    </declare-styleable>
+</resources>

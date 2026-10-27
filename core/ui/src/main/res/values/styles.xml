@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.AndroidPro.Core" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorSecondary">#FF8F00</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

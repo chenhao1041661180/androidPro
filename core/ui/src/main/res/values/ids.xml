@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     列表页通用视图 id。BaseListFragment 会按这几个 id 自动查找视图，
+     业务页面只要沿用这些 id，就无需再逐个 override 视图属性。
+    -->
+    <item name="state" type="id" />
+    <item name="list" type="id" />
+    <item name="swipeRefresh" type="id" />
+</resources>

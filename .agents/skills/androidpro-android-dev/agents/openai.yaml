@@ -1,0 +1,4 @@
+interface:
+  display_name: "AndroidPro Android 开发"
+  short_description: "按项目 MVVM、生命周期、统一网络和 XML UI 约定开发 AndroidPro"
+  default_prompt: "使用 $androidpro-android-dev，为 AndroidPro 新增一个符合项目架构的原生 Android 功能。"
